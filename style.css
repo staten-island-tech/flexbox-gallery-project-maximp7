@@ -1,0 +1,42 @@
+.title {
+  text-align: center;
+}
+
+body {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+.card-img {
+  width: 80%;
+  float: left;
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+.card {
+  width: 27vw;
+  height: 55vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightcyan;
+  justify-content: space-between;
+  margin: 8px 8px 8px;
+}
+.card-title {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+.card-desc {
+  font-size: 1.3rem;
+}
+.flex-container {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  padding: 0%;
+}

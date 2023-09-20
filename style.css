@@ -13,18 +13,18 @@ body {
   width: 80%;
   float: left;
   width: 200px;
-  height: 150px;
+  height: 700px;
   object-fit: cover;
 }
 .card {
-  width: 27vw;
+  width: 27%;
   height: 55vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: lightcyan;
+  background-color: white;
   justify-content: space-between;
-  margin: 8px 8px 8px;
+  margin: 3px 3px 3px;
 }
 .card-title {
   font-size: 2.2rem;
@@ -39,4 +39,4 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 0%;
-}
+ }

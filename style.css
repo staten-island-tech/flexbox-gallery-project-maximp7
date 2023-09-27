@@ -7,7 +7,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: beige;
+  background-color: rgb(223, 213, 213);
 }
 .card-img {
   width: 80%;
@@ -24,7 +24,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-color: rgb(37, 162, 219);
   justify-content: space-around;
   margin: 3px 3px 3px;
   position: relative;
@@ -43,11 +43,31 @@ body {
   justify-content: space-around;
   padding: 0%;
  }
-
+ .card-title {
+  background-color: powderblue;
+  transition: background-color 0.5s;
+}
 
 .card:hover {
-  background-color: #e6ccff;
-  width: 200px;
-  height: 200px;
-  rotate: 180deg;
+  background-color: gold;
+}
+.card {
+  background-color: powderblue;
+  transition: background-color 0.5s;
+}
+.card:hover{
+  rotate: 360deg;
+}
+.card:hover{
+  transform: rotate(360deg);
+}
+.card:hover {
+  color: rgb(255, 0, 0);
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: card;
+  -webkit-background-clip: card;
+}
+.card:hover {
+  color: transparent;
+  transition: 1s ease;
 }

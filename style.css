@@ -8,6 +8,10 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(223, 213, 213);
+  font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+  
 }
 .card-img {
   width: 80%;
@@ -28,6 +32,7 @@ body {
   justify-content: space-around;
   margin: 3px 3px 3px;
   position: relative;
+  box-shadow: 10px 10px lightblue;
 }
 .card-title {
   font-size: 2.2rem;
@@ -62,12 +67,11 @@ body {
   transform: rotate(360deg);
 }
 .card:hover {
-  color: rgb(255, 0, 0);
+  
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
   background-clip: card;
   -webkit-background-clip: card;
 }
 .card:hover {
-  color: transparent;
-  transition: 1s ease;
+    transition: 1s ease;
 }

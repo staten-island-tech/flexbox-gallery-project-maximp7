@@ -1,5 +1,6 @@
 .title {
   text-align: center;
+  font-size: xx-large;
 }
 
 body {
@@ -8,7 +9,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(223, 213, 213);
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .card-img {
   width: 80%;
@@ -16,12 +17,9 @@ body {
   width: 200px;
   height: 500px;
   object-fit: cover;
-  
-  
 }
 .card {
-  width: 23%;
-  height: 50vh;
+  width: 21%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,16 +30,16 @@ body {
   box-shadow: 10px 5px 5px rgb(185, 98, 98);
 }
 @media screen and (max-width: 900px) {
-  .card{
+  .card {
     width: 40%;
   }
 
-@media  screen and (max-width: 600px){
-  .card{width: 100%;
+  @media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+    }
   }
 }
-}
-
 
 .card-title {
   font-size: 2.2rem;
@@ -56,8 +54,8 @@ body {
   display: flex;
   justify-content: space-around;
   padding: 0%;
- }
- .card-title {
+}
+.card-title {
   background-color: powderblue;
   transition: background-color 0.5s;
 }
@@ -65,17 +63,36 @@ body {
   background-color: powderblue;
   transition: background-color 0.5s;
 }
-.card:hover{
+.card:hover {
   rotate: 360deg;
 }
-.card:hover{
+.card:hover {
   transform: rotate(360deg);
 }
 .card:hover {
-  
   background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
 }
 .card:hover {
-  
   transition: 1s ease;
 }
+.animation {
+  height: 6rem;
+  width: 7rem;
+  position: absolute;
+  animation: animation 2s infinite;
+}
+@keyframes animation {
+  0% {
+    left: 5%;
+    top: 2%;
+  }
+  50% {
+    left: 25%;
+    top: 2%;
+  }
+  100% {
+    left: 5%;
+    top: 2%;
+  }
+}
+
